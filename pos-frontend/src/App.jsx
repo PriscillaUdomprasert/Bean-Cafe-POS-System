@@ -1,10 +1,8 @@
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
-import { Home, Auth, About, Contact } from './pages';
+import { BrowserRouter as Router, Route, Routes } from 'react-router';
+import { Home, Auth, About, Contact, Orders} from './pages';
 import Header from './components/shared/Header';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Router>
