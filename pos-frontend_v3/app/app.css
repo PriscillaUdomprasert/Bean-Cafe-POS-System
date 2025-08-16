@@ -9,8 +9,14 @@
 }
 
 html,
+h1 {
+  font-family: 'InconsolataVar', monospace;
+  font-weight: 700;
+}
+
+html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-linear-to-r from-orange-600 via-amber-900 to-amber-950;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
